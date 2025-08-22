@@ -332,6 +332,9 @@ const AuthPage = ({ onLogin, onBack }) => {
 // ==================================================================================
 // ===  ChatPage Component                                                      ===
 // ==================================================================================
+// ==================================================================================
+// ===  ChatPage Component                                                      ===
+// ==================================================================================
 const ChatPage = ({ token, onLogout }) => {
   const [messages, setMessages] = useState([
 { text: "Hello! How can I assist you today? How are you feeling right now?", sender: "bot" }
@@ -482,7 +485,7 @@ const handleSendMessage = useCallback((textOverride) => {
             </svg>
           </button>
           <button
-            onClick={handleSendMessage}
+            onClick={() => handleSendMessage()}
             disabled={isBotSpeaking || !inputValue.trim()}
             className="btn-icon btn-icon--send"
           >
