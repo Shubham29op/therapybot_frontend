@@ -84,7 +84,7 @@ const LandingPage = ({ onSignUp }) => {
       <main className="landing-main">
         <div className="hero-section">
           <h1 className="hero-title">
-            The Smartest AI Assistant,
+            The Smartest Attuned AI Assistant,
             <br />
             Ready to Chat!
           </h1>
@@ -106,7 +106,7 @@ const LandingPage = ({ onSignUp }) => {
          <span className="features-badge">FEATURES</span>
          <h2>Discover the Power of Aura</h2>
          <p>
-             Experience the AI ChatBot trusted by over 10,000 users, delivering 24/7 support and automating up to 70%
+             Experience the AI ChatBot trusted by over 9870+ users, delivering 24/7 support and automating up to 70%
              of routine tasks. Get responses 10x faster and enjoy personalized assistance, tailored to make every
              interaction seamless.
          </p>
@@ -233,9 +233,7 @@ const AuthPage = ({ onLogin, onBack }) => {
         <div className="auth-left">
           <h2>Let's Get Started</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Maecenas placerat ultricies libero eu pharetra. Vestibulum a 
-            ultricies quam, eget dignissim magna.
+           Create an account to begin your personalized journey with Aura.ai. Your smart assistant is ready to listen and help, anytime you need.
           </p>
         </div>
 
